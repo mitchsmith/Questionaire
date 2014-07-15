@@ -1,0 +1,32 @@
+{
+    "name": "questionaire",
+    "description": "A tool for administering questionaires, based on the Slim Framework, Twig templates and the Eloquent ORM",
+    "keywords": ["questionaire","survey","medical study screener"],
+    "homepage": "http://jmitchellsmith.com/questionaire",
+    "license": "Copyright John Mitchell Smith 2014, all rights reserved, except where explicitly licenced under the MIT, or other FOSS softwware agreement.",
+    "authors": [
+        {
+            "name": "John Mitchell Smith",
+            "email": "mitch@jmitchellsmith.com",
+            "homepage": "http://www.jmitchellsmith.com/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "monolog/monolog": "1.*",
+        "slim/slim": "2.*",
+        "slim/views": "0.1.*",
+        "twig/twig": "1.*",
+        "illuminate/database": "4.0.*",
+        "symfony/form": "2.3.*",
+        "symfony/validator": "2.3.*",
+        "symfony/config": "2.3.*",
+        "symfony/translation": "2.3.*",
+        "symfony/twig-bridge": "2.3.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Questionaire//": "app/"
+        }
+    }
+}
